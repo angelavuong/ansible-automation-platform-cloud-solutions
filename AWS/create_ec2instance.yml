@@ -25,7 +25,7 @@
         rules:
           - proto: tcp
             ports:
-            - 22
+            - 80
             cidr_ip: 0.0.0.0/0
             rule_desc: "allow all on port 80"
           - proto: tcp
